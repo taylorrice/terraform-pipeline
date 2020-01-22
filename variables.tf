@@ -7,7 +7,7 @@ variable "private_subnet_b_id"{
 }
 
 variable "region"{
-
+  default = "us-east-1"
 }
 
 variable "aws_account_id" {
